@@ -1,5 +1,4 @@
-name:
-Calculadora CI with Maven
+name: Calculadora CI with Maven
 
 on:
   push:
@@ -17,3 +16,5 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
+    - name: Compilar y ejecutar tests de la Calculadora
+      run: mvn clean test

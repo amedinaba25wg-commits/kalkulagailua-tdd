@@ -11,7 +11,7 @@ class KalkulagailuaTest {
 
         int emaitza = kalk.batu(2, 3);
 
-        assertEquals(5, emaitza,
+        assertEquals(4, emaitza,
                 "2 + 3 batuketak 5 izan beharko luke");
     }
 

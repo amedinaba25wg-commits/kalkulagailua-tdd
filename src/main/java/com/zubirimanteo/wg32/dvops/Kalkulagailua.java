@@ -13,4 +13,8 @@ public class Kalkulagailua {
     public int biderkatu(int a, int b) {
         return a * b;
     }
+    
+    public int zatitu(int a, int b) {
+        return a / b;
+    }
 }
