@@ -9,7 +9,7 @@ class KalkulagailuaTest {
     void oinarrizkoBatuketaTest() {
         Kalkulagailua kalk = new Kalkulagailua();
 
-        int emaitza = kalk.batu(2, 3);
+        int emaitza = kalk.batu(5, 3);
 
         assertEquals(8, emaitza,
                 "2 + 3 batuketak 5 izan beharko luke");
