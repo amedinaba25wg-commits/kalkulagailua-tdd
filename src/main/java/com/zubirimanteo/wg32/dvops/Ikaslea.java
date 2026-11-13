@@ -8,6 +8,7 @@ public class Ikaslea {
     private boolean aktibo;
     private int[] notak;
     private int aldagaia;
+    private int aldagaia2;
 
     public Ikaslea(String id, String izena, boolean aktibo, int[] notak) {
         this.id = id;
